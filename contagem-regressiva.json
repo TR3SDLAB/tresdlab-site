@@ -1,0 +1,14 @@
+{
+  "name": "Contagem Regressiva de Natal",
+  "category": "Natal",
+  "price": 22.84,
+  "description": "Acompanhe a chegada do Natal dia após dia.",
+  "photos": [
+    "/fotos/contagem-regressiva.jpg"
+  ],
+  "options": [],
+  "frames360": [],
+  "model3d": "",
+  "active": true,
+  "order": 4
+}

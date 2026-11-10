@@ -1,0 +1,55 @@
+# Depois de criar seu repositorio no GitHub, substitua TR3SDLAB/tresdlab-site abaixo.
+# A autenticação GitHub requer configurar OAuth no Netlify (ou serviço compatível).
+backend:
+  name: github
+  repo: TR3SDLAB/tresdlab-site
+  branch: main
+media_folder: "fotos"
+public_folder: "/fotos"
+locale: pt
+publish: true
+collections:
+  - name: "produtos"
+    label: "Produtos do catálogo"
+    label_singular: "Produto"
+    folder: "conteudo"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    identifier_field: "name"
+    slug: "{{slug}}"
+    summary: "{{name}} — {{category}}"
+    fields:
+      - { label: "Nome do produto", name: "name", widget: "string" }
+      - { label: "Categoria", name: "category", widget: "string", default: "Natal" }
+      - { label: "Preço base (somente número, ex.: 55.12)", name: "price", widget: "number", value_type: "float", min: 0, step: 0.01 }
+      - { label: "Descrição", name: "description", widget: "text" }
+      - { label: "Mostrar no site", name: "active", widget: "boolean", default: true }
+      - { label: "Ordem no catálogo", name: "order", widget: "number", value_type: "int", default: 99 }
+      - label: "Fotos do produto (adicione quantas quiser)"
+        name: "photos"
+        widget: "list"
+        required: false
+        field: { label: "Foto", name: "image", widget: "image" }
+      - label: "Variações e preços (ex.: com vela / sem vela)"
+        name: "options"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Nome da opção", name: "label", widget: "string" }
+          - { label: "Preço da opção", name: "price", widget: "number", value_type: "float", min: 0, step: 0.01 }
+      - label: "Fotos 360° em sequência (24 a 36 ângulos, se tiver)"
+        name: "frames360"
+        widget: "list"
+        required: false
+        field: { label: "Quadro 360°", name: "image", widget: "image" }
+      - { label: "Modelo 3D interativo (.glb, opcional)", name: "model3d", widget: "file", required: false, media_folder: "/modelos", public_folder: "/modelos" }
+  - name: "configuracoes"
+    label: "Configurações da loja"
+    files:
+      - label: "Contato"
+        name: "contato"
+        file: "conteudo-loja/contato.json"
+        fields:
+          - { label: "WhatsApp com DDI + DDD (somente números)", name: "whatsapp", widget: "string", required: false }

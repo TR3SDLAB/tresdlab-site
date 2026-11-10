@@ -1,0 +1,1 @@
+Coloque aqui fotos JPG/PNG/WebP dos produtos. No index.html, em const products, acrescente photos:["fotos/nome1.jpg","fotos/nome2.jpg"] e, para 360 graus, frames:["fotos/360-01.jpg", "fotos/360-02.jpg", ...] (ideal 24-36 fotos na mesma altura, girando a peça).

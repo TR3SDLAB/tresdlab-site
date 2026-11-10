@@ -1,0 +1,14 @@
+{
+  "name": "Rena de Natal",
+  "category": "Natal",
+  "price": 21.45,
+  "description": "Rena decorativa com nariz vermelho.",
+  "photos": [
+    "/fotos/rena.jpg"
+  ],
+  "options": [],
+  "frames360": [],
+  "model3d": "",
+  "active": true,
+  "order": 9
+}

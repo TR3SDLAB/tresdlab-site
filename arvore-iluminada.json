@@ -1,0 +1,24 @@
+{
+  "name": "Árvore Iluminada com Rena",
+  "category": "Natal",
+  "price": 55.12,
+  "description": "Peça decorativa iluminada com rena. Escolha com ou sem vela.",
+  "photos": [
+    "/fotos/arvore-iluminada.jpg",
+    "/fotos/arvore-iluminada-2.jpg"
+  ],
+  "options": [
+    {
+      "label": "Sem vela",
+      "price": 55.12
+    },
+    {
+      "label": "Com vela",
+      "price": 64.12
+    }
+  ],
+  "frames360": [],
+  "model3d": "",
+  "active": true,
+  "order": 3
+}

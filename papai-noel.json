@@ -1,0 +1,14 @@
+{
+  "name": "Papai Noel",
+  "category": "Natal",
+  "price": 21.45,
+  "description": "Papai Noel decorativo para presentear e enfeitar.",
+  "photos": [
+    "/fotos/papai-noel.jpg"
+  ],
+  "options": [],
+  "frames360": [],
+  "model3d": "",
+  "active": true,
+  "order": 6
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Letreiro Ele Vive",
+  "category": "Religiosos",
+  "price": 32.5,
+  "description": "Letreiro decorativo com opção de incluir mini Jesus.",
+  "photos": [
+    "/fotos/ele-vive.jpg"
+  ],
+  "options": [
+    {
+      "label": "Sem Jesus",
+      "price": 32.5
+    },
+    {
+      "label": "Com Jesus",
+      "price": 53.21
+    }
+  ],
+  "frames360": [],
+  "model3d": "",
+  "active": true,
+  "order": 10
+}

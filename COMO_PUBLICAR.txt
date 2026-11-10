@@ -1,0 +1,10 @@
+TR3S’D LAB — SITE GRATUITO
+
+1. Acesse https://app.netlify.com/drop
+2. Arraste a pasta TR3SD_LAB_site_gratis (extraída do ZIP) para a área de publicação.
+3. O Netlify gera um endereço gratuito netlify.app. Você pode personalizar o subdomínio se estiver disponível.
+4. Para receber pedidos diretamente no seu WhatsApp, abra index.html num editor de texto e preencha WHATSAPP_NUMERO com 55 + DDD + número (só dígitos). Publique a pasta novamente.
+5. Para fotos, coloque arquivos em fotos/ e adicione photos:["fotos/arquivo.jpg"] ao objeto do produto no array products.
+6. Para 360, fotografe a peça em 24 a 36 posições e adicione frames:["fotos/360-01.jpg",...] ao produto.
+
+Observações: no site atual, as imagens dos produtos são ilustrativas até você adicionar fotos reais. A visualização 360° real só é ativada quando houver quadros de imagem. Não há pagamento nem carrinho. O Netlify oferece plano gratuito com limites de uso; confira as condições atuais.

@@ -1,0 +1,14 @@
+{
+  "name": "Ursinho Natalino",
+  "category": "Natal",
+  "price": 21.45,
+  "description": "Ursinho decorativo com gorro de Natal.",
+  "photos": [
+    "/fotos/ursinho.jpg"
+  ],
+  "options": [],
+  "frames360": [],
+  "model3d": "",
+  "active": true,
+  "order": 5
+}

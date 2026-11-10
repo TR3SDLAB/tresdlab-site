@@ -1,0 +1,14 @@
+{
+  "name": "Árvore de Natal",
+  "category": "Natal",
+  "price": 20.82,
+  "description": "Árvore de Natal verde com estrela dourada.",
+  "photos": [
+    "/fotos/arvore-natal.jpg"
+  ],
+  "options": [],
+  "frames360": [],
+  "model3d": "",
+  "active": true,
+  "order": 8
+}

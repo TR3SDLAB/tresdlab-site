@@ -1,0 +1,14 @@
+{
+  "name": "Boneco de Neve",
+  "category": "Natal",
+  "price": 21.45,
+  "description": "Boneco de neve decorativo com gorro e cachecol.",
+  "photos": [
+    "/fotos/boneco-neve.jpg"
+  ],
+  "options": [],
+  "frames360": [],
+  "model3d": "",
+  "active": true,
+  "order": 7
+}
